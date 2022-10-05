@@ -84,12 +84,12 @@ const App = () => {
   const [hue, setHue] = useState(random(0, 360));
   return /*#__PURE__*/(
     React.createElement(React.Fragment, null, /*#__PURE__*/
-    React.createElement(Orbs, { hue: hue }), /*#__PURE__*/
-    React.createElement("div", { className: "banner" }, /*#__PURE__*/
-    React.createElement("h1", null, "Generative Gradient Blobs"), /*#__PURE__*/
-    React.createElement("p", null, "These SVG blobs are randomly generated and animated. Each blob is given a unique gradient (within an initial hue range) and a movement trajectory. To maintain a uniform velocity, the animation duration is calculated based on the length of the trajectory."), /*#__PURE__*/
-    React.createElement("button", { style: { '--hue': hue }, onClick: () => setHue(random(0, 360)) }, "Regenerate"))));
-
+    React.createElement(Orbs, { hue: hue }) /*#__PURE__*/
+    // React.createElement("div", { className: "banner" }, /*#__PURE__*/
+    // React.createElement("h1", null, "Generative Gradient Blobs"), /*#__PURE__*/
+    // React.createElement("p", null, "These SVG blobs are randomly generated and animated. Each blob is given a unique gradient (within an initial hue range) and a movement trajectory. To maintain a uniform velocity, the animation duration is calculated based on the length of the trajectory."), /*#__PURE__*/
+    // React.createElement("button", { style: { '--hue': hue }, onClick: () => setHue(random(0, 360)) }, "Regenerate"))));
+    ))
 
 
 };
